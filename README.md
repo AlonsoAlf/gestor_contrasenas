@@ -53,6 +53,7 @@ Antes de ejecutar el proyecto necesitas tener instalado:
 3. Configura la base de datos:
 El fichero database.dart esta diseño de forma que la única modificación que tengas que hacer sea comentar la línea 14 en el fichero database.dart, una vez hecho esto, en el terminal ejecutas el fichero main con el comando **dart .\main.dart**
 y la base de datos se creará de forma automática y comenzará la ejecución.
+
 <img width="527" height="283" alt="image" src="https://github.com/user-attachments/assets/6917dee7-cbe2-47b8-8245-e20b083ecc99" />
 
 
@@ -62,6 +63,7 @@ y la base de datos se creará de forma automática y comenzará la ejecución.
 ##  Uso
 
 Al ejecutar la aplicación se muestra un menú interactivo por terminal. El usuario interactúa introduciendo el **número de la opción** deseada y pulsando **Enter**. El flujo típico es:
+
 <img width="355" height="161" alt="image" src="https://github.com/user-attachments/assets/ae7a3126-fbfa-4b04-9293-afd7b417c856" />
 
 
@@ -72,9 +74,10 @@ Al ejecutar la aplicación se muestra un menú interactivo por terminal. El usua
    - Consultar si una contraseña ha sido filtrada y cuántas veces.
    - Modificar una contraseña existente.
    - Eliminar una contraseña.
-<img width="366" height="195" alt="image" src="https://github.com/user-attachments/assets/eb0e8f52-f01d-4e3f-a40c-79042164258c" />
 
 4. Salir de la aplicación.
+
+<img width="366" height="195" alt="image" src="https://github.com/user-attachments/assets/eb0e8f52-f01d-4e3f-a40c-79042164258c" />
 
 ## Estructura del proyecto
 
