@@ -53,6 +53,8 @@ Antes de ejecutar el proyecto necesitas tener instalado:
 3. Configura la base de datos:
 El fichero database.dart esta diseño de forma que la única modificación que tengas que hacer sea comentar la línea 14 en el fichero database.dart, una vez hecho esto, en el terminal ejecutas el fichero main con el comando **dart .\main.dart**
 y la base de datos se creará de forma automática y comenzará la ejecución.
+<img width="527" height="283" alt="image" src="https://github.com/user-attachments/assets/6917dee7-cbe2-47b8-8245-e20b083ecc99" />
+
 
 5. Ejecuta la aplicación:
  Utiliza el comando **dart .\main.dart** en el terminal para ejecutar el programa.
