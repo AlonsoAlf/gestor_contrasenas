@@ -62,6 +62,8 @@ y la base de datos se creará de forma automática y comenzará la ejecución.
 ##  Uso
 
 Al ejecutar la aplicación se muestra un menú interactivo por terminal. El usuario interactúa introduciendo el **número de la opción** deseada y pulsando **Enter**. El flujo típico es:
+<img width="355" height="161" alt="image" src="https://github.com/user-attachments/assets/ae7a3126-fbfa-4b04-9293-afd7b417c856" />
+
 
 1. Registrarse.
 2. Iniciar Sesión.
@@ -70,6 +72,8 @@ Al ejecutar la aplicación se muestra un menú interactivo por terminal. El usua
    - Consultar si una contraseña ha sido filtrada y cuántas veces.
    - Modificar una contraseña existente.
    - Eliminar una contraseña.
+<img width="366" height="195" alt="image" src="https://github.com/user-attachments/assets/eb0e8f52-f01d-4e3f-a40c-79042164258c" />
+
 4. Salir de la aplicación.
 
 ## Estructura del proyecto
