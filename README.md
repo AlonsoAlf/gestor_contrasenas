@@ -4,16 +4,16 @@ Aplicación de línea de comandos desarrollada en Dart puro que permite a los us
 
 Tabla de contenidos
 
-- [Características](#-características)
-- [Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [Requisitos previos](#-requisitos-previos)
-- [Instalación](#-instalación)
-- [Uso](#-uso)
-- [Estructura del proyecto](#-estructura-del-proyecto)
-- [Seguridad y mejoras futuras](#-seguridad-y-mejoras-futuras)
-- [Autor](#-autor)
+- [Características]
+- [Tecnologías utilizadas]
+- [Requisitos previos]
+- [Instalación]
+- [Uso]
+- [Estructura del proyecto]
+- [Seguridad y mejoras futuras]
+- [Autor]
 
-Características
+## Características
 
 - **Registro e inicio de sesión** de usuarios.
 - **Gestión de contraseñas**: añadir, modificar y eliminar contraseñas asociadas a distintos servicios.
