@@ -109,6 +109,6 @@ Este proyecto se desarrolló como proyecto final, y actualmente presenta algunas
 
 ## Autor
 
-Desarrollado por [Alonso Alfayate] como proyecto de aprendizaje en Dart y bases de datos.
+Desarrollado por Alonso Alfayate como proyecto de aprendizaje en Dart y bases de datos.
 
 - GitHub: [https://github.com/AlonsoAlf]
