@@ -51,7 +51,7 @@ Antes de ejecutar el proyecto necesitas tener instalado:
    ```
 
 3. Configura la base de datos:
-El fichero database.dart esta diseño de forma que la única modificación que tengas que hacer sea comentar la línea 14 en el fichero database.dart, una vez hecho esto, en el terminal ejecutas el fichero main con el comando **dart .\main.dart**
+El fichero database.dart esta diseñado de forma que la única modificación que tengas que hacer sea comentar la línea 14 en el fichero database.dart, una vez hecho esto, en el terminal ejecutas el fichero main con el comando **dart .\main.dart**
 y la base de datos se creará de forma automática y comenzará la ejecución.
 
 <img width="527" height="283" alt="image" src="https://github.com/user-attachments/assets/6917dee7-cbe2-47b8-8245-e20b083ecc99" />
@@ -103,7 +103,7 @@ gestor-contrasenas/
 
 Este proyecto se desarrolló como proyecto final, y actualmente presenta algunas limitaciones pendientes de mejora:
 
-- **Almacenamiento de contraseñas**: actualmente las contraseñas se guardan en texto plano en la base de datos. El hash SHA-1 solo se utiliza para consultar la API de Have I Been Pwned siguiendo el modelo k-anonimity, no para el almacenamiento. Como mejora futura, se incorporará un algoritmo de hash seguro con salt (como **bcrypt** o **Argon2**) para el almacenamiento real de la información.
+- **Almacenamiento de contraseñas**: actualmente las contraseñas se guardan en texto plano en la base de datos. El hash SHA-1 solo se utiliza para consultar la API de Have I Been Pwned siguiendo el modelo k-anonymity, no para el almacenamiento. Como mejora futura, se incorporará un algoritmo de hash seguro con salt (como **bcrypt** o **Argon2**) para el almacenamiento real de la información.
 - **Gestión de credenciales de configuración**: los datos de conexión a la base de datos se encuentran en un fichero dentro del proyecto. Se plantea migrar a variables de entorno para evitar exponer credenciales en el control de versiones.
 - **Creacion de nuevas contraseñas**: se valorará la integración de métodos que creen contraseñas seguras.
 - **Integración de una interfaz**: se va a trabajar en desarrollar una interfaz mas avanzada y que mejora la experiencia del usuario (probablemente basada en Flutter, pero no se descarta crear una basada en HTML y CSS de manera provisional y para practicar desarrollo frontend).
