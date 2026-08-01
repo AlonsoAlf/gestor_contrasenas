@@ -106,6 +106,7 @@ Este proyecto se desarrolló como proyecto final, y actualmente presenta algunas
 - **Almacenamiento de contraseñas**: actualmente las contraseñas se guardan en texto plano en la base de datos. El hash SHA-1 solo se utiliza para consultar la API de Have I Been Pwned siguiendo el modelo k-anonimity, no para el almacenamiento. Como mejora futura, se incorporará un algoritmo de hash seguro con salt (como **bcrypt** o **Argon2**) para el almacenamiento real de la información.
 - **Gestión de credenciales de configuración**: los datos de conexión a la base de datos se encuentran en un fichero dentro del proyecto. Se plantea migrar a variables de entorno para evitar exponer credenciales en el control de versiones.
 - **Creacion de nuevas contraseñas**: se valorará la integración de métodos que creen contraseñas seguras.
+- **Integración de una interfaz**: se va a trabajar en desarrollar una interfaz mas avanzada y que mejora la experiencia del usuario (probablemente basada en Flutter, pero no se descarta crear una basada en HTML y CSS de manera provisional y para practicar desarrollo frontend).
 
 ## Autor
 
