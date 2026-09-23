@@ -1,19 +1,19 @@
-Gestor de Contraseñas
+## Gestor de Contraseñas
 
 Aplicación de línea de comandos desarrollada en Dart puro que permite a los usuarios registrarse, iniciar sesión y gestionar sus contraseñas de forma centralizada. Integra la API pública de Have I Been Pwned(https://haveibeenpwned.com/API/v3#PwnedPasswords) para comprobar si una contraseña ha sido filtrada en alguna brecha de datos conocida y cuántas veces ha aparecido.
 
 Tabla de contenidos
 
-- [Características]
-- [Tecnologías utilizadas]
-- [Requisitos previos]
-- [Instalación]
-- [Uso]
-- [Estructura del proyecto]
-- [Seguridad y mejoras futuras]
-- [Autor]
+- 1 Características
+- 2 Tecnologías utilizadas
+- 3 Requisitos previos
+- 4 Instalación
+- 5 Uso
+- 6 Estructura del proyecto
+- 7 Seguridad y mejoras futuras
+- 8 Autor
 
-## Características
+## 1 Características
 
 - **Registro e inicio de sesión** de usuarios.
 - **Gestión de contraseñas**: añadir, modificar y eliminar contraseñas asociadas a distintos servicios.
@@ -21,13 +21,13 @@ Tabla de contenidos
 - **Persistencia de datos** en una base de datos **MySQL**.
 - **Interfaz por consola** guiada por menús numéricos, pensada para ser simple e intuitiva desde la terminal.
 
-## Tecnologías utilizadas
+## 2 Tecnologías utilizadas
 
 - **[Dart](https://dart.dev/)** (sin Flutter) — lógica de la aplicación y ejecución por terminal.
 - **MySQL** — almacenamiento de usuarios y contraseñas.
-- **API de Have I Been Pwned** — verificación de contraseñas filtradas (endpoint de rango de hashes SHA-1, no requiere API key).
+- **[API de Have I Been Pwned](https://haveibeenpwned.com/API/v3)** — verificación de contraseñas filtradas (endpoint de rango de hashes SHA-1, no requiere API key).
 
-## Requisitos previos
+## 3 Requisitos previos
 
 Antes de ejecutar el proyecto necesitas tener instalado:
 
@@ -35,7 +35,7 @@ Antes de ejecutar el proyecto necesitas tener instalado:
 - Un servidor **MySQL** local o remoto en funcionamiento
 - Conexión a internet (para las consultas a la API de HIBP)
 
-## Instalación
+## 4 Instalación
 
 1. Clona el repositorio:
 
@@ -60,7 +60,7 @@ y la base de datos se creará de forma automática y comenzará la ejecución.
 5. Ejecuta la aplicación:
  Utiliza el comando **dart .\main.dart** en el terminal para ejecutar el programa.
 
-##  Uso
+## 5 Uso
 
 Al ejecutar la aplicación se muestra un menú interactivo por terminal. El usuario interactúa introduciendo el **número de la opción** deseada y pulsando **Enter**. El flujo típico es:
 
@@ -79,7 +79,7 @@ Al ejecutar la aplicación se muestra un menú interactivo por terminal. El usua
 
 <img width="366" height="195" alt="image" src="https://github.com/user-attachments/assets/eb0e8f52-f01d-4e3f-a40c-79042164258c" />
 
-## Estructura del proyecto
+## 6 Estructura del proyecto
 
 ```
 gestor-contrasenas/
@@ -99,7 +99,7 @@ gestor-contrasenas/
 ```
 
 
-## Mejoras futuras
+## 7 Mejoras futuras
 
 Este proyecto se desarrolló como proyecto final, y actualmente presenta algunas limitaciones pendientes de mejora:
 
@@ -108,7 +108,7 @@ Este proyecto se desarrolló como proyecto final, y actualmente presenta algunas
 - **Creacion de nuevas contraseñas**: se valorará la integración de métodos que creen contraseñas seguras.
 - **Integración de una interfaz**: se va a trabajar en desarrollar una interfaz mas avanzada y que mejora la experiencia del usuario (probablemente basada en Flutter, pero no se descarta crear una basada en HTML y CSS de manera provisional y para practicar desarrollo frontend).
 
-## Autor
+## 8 Autor
 
 Desarrollado por Alonso Alfayate como proyecto de aprendizaje en Dart y bases de datos.
 
