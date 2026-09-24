@@ -40,20 +40,20 @@ Antes de ejecutar el proyecto necesitas tener instalado:
 1. Clona el repositorio:
 
    ```bash
-   git clone (https://github.com/AlonsoAlf/gestor_contrasenas)
-   cd gestor-contrasenas
+   git clone https://github.com/AlonsoAlf/gestor_contrasenas
    ```
 
-2. Instala las dependencias del proyecto:
+2. Ingresa en el directorio "gestor_contrasenas":
 
+   ```bash
+   cd gestor_contrasenas
+   ```
+3. Instala las dependencias del proyecto:
    ```bash
    dart pub get
    ```
-
-3. Configura la base de datos:
-El fichero database.dart esta diseñado de forma que la única modificación que tengas que hacer sea comentar la línea 14 en el fichero database.dart, una vez hecho esto, en el terminal ejecutas el fichero main con el comando **dart .\main.dart**
-y la base de datos se creará de forma automática y comenzará la ejecución.
-
+4. Configura la base de datos:
+En el fichero database.dart, comenta la linea 14.
 <img width="527" height="283" alt="image" src="https://github.com/user-attachments/assets/6917dee7-cbe2-47b8-8245-e20b083ecc99" />
 
 
